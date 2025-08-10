@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>A2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="site-wrapper">
+        <header class="site-header">
+            <div class="brand"><h2>Visual Harmony</h2></div>
+        </header>
+
+        <!-- Holy Grail layout for desktop and linear for mobile -->
+        <div class="layout">
+            <nav class="left-aside">
+                <ul class="side-links">
+                    <li><button type="button" data-target="layout">Layout</button></li>
+                    <li><button type="button" data-target="readability">Readability</button></li>
+                    <li><button type="button" data-target="cc">Color Choices</button></li>
+                    <li><button type="button" data-target="flair">Decorative Flair</button></li>
+                </ul>
+            </nav>
+
+            <main class="main" id="main-content" tabindex="-1">
+                <section id="layout" class="page-section active">
+                    <h1>Layout</h1>
+                    <p>
+                        When designing graphics, there are a few key principles to keep in mind.<br>
+                        The very first is to lay out your graphics in a way that is "comfortable" to look at.<br>
+                        Most things should have a margin (an empty space around the edge) to prevent them from feeling cramped.<br>
+                        Unlike in the CSS Box Model, there isn't a rigid requirement for needing a padding and border; the important thing is that elements of your design have breathing room.
+                    </p>
+                </section>
+
+                <section id="readability" class="page-section">
+                    <h1>Readability</h1>
+                    <p>
+                        Readability is one of the goals of graphic design, especially if you have text in your design.<br>
+                        There are a few general rules to follow:<br>
+                        1) Use a readable font<br>
+                        2) Use a font size that is large enough to read comfortably<br>
+                        3) Use a color that contrasts with the background<br>
+                        On top of that, if you have lots of text, you can break it up into smaller paragraphs and add headings to make it easier to read.
+                    </p>
+                </section>
+
+                <section id="cc" class="page-section">
+                    <h1>Color choices</h1>
+                    <p>
+                        Your choice of colors can have a big impact on the overall look and feel of your design.<br>
+                        This article will not go into detail about color theory, but there are a few things to keep in mind:<br>
+                        1) <b>Avoid using too many colors</b>—Stick to a limited color palette to create a cohesive look. Too many colors at once can clash and make your design look chaotic.<br>
+                        2) <b>Use colors that complement each other</b>—You can use a color wheel to find colors that work well together. Complementary colors create strong contrast, while analogous or monochromatic colors create a more harmonious and cohesive look.<br>
+                        3) <b>Use colors that fit the mood of your design</b>—Different colors can evoke different emotions. For example, blue is often associated with calmness.<br>
+                        Additionally, you may want to consider accessibility when choosing colors, ensuring that your design is readable for those with color vision deficiencies.
+                    </p>
+                </section>
+
+                <section id="flair" class="page-section">
+                    <h1>Decorative flair</h1>
+                    <p>
+                            Decorative flair can add a unique touch to your design, but it takes time to add tastefully. 
+                            There are many types of decorative flair, like floating images, background patterns, and emissive effects.<br>
+                            However, it's important to use them sparingly and ensure they enhance rather than distract from your main content. 
+                            The key aspect of decorative flair is recognising that graphic design isn't just about text, but also the subtle and proper use of images to create an experience.
+                    </p>
+                </section>
+            </main>
+        </div>
+
+        <footer class="site-footer">
+            <div class="footer-content">
+                <div class="footer-text">Choi Yuk 252819R</div>
+                <div class="footer-image">
+                    <img src="./images/qrcode_cy081209.github.io.png" alt="QR Code to live website" />
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
